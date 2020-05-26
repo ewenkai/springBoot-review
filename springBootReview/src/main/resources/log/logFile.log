@@ -1,0 +1,19 @@
+2020-05-26 16:31:50.141  INFO 4144 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication on DESKTOP-S8PANDR with PID 4144 (D:\review\springBootReview\target\classes started by 34680 in D:\review\springBootReview)
+2020-05-26 16:31:50.145 DEBUG 4144 --- [main] com.example.demo.DemoApplication         : Running with Spring Boot v2.1.14.RELEASE, Spring v5.1.15.RELEASE
+2020-05-26 16:31:50.146  INFO 4144 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2020-05-26 16:31:51.302  INFO 4144 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-05-26 16:31:51.323  INFO 4144 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-05-26 16:31:51.324  INFO 4144 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.34]
+2020-05-26 16:31:51.409  INFO 4144 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-05-26 16:31:51.409  INFO 4144 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1199 ms
+2020-05-26 16:31:51.870  INFO 4144 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-26 16:31:52.145  INFO 4144 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-26 16:31:52.148  INFO 4144 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 2.566 seconds (JVM running for 5.126)
+2020-05-26 16:31:58.317  INFO 4144 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-26 16:31:58.317  INFO 4144 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-05-26 16:31:58.321  INFO 4144 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2020-05-26 16:31:58.374  INFO 4144 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-05-26 16:31:58.479  INFO 4144 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-05-26 16:31:58.484 DEBUG 4144 --- [http-nio-8080-exec-1] c.e.d.d.CustomerMapper.findSomeCustomer  : ==>  Preparing: select * from customer WHERE username=? 
+2020-05-26 16:31:58.501 DEBUG 4144 --- [http-nio-8080-exec-1] c.e.d.d.CustomerMapper.findSomeCustomer  : ==> Parameters: 小二王(String)
+2020-05-26 16:31:58.529 DEBUG 4144 --- [http-nio-8080-exec-1] c.e.d.d.CustomerMapper.findSomeCustomer  : <==      Total: 2
